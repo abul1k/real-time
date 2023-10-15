@@ -2,4 +2,9 @@
   .sidebar.open {
     width: 50%;
   }
+
+  .sidebar {
+    width: 50%;
+    right: -50%;
+  }
 }
