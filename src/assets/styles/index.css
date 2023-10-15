@@ -26,11 +26,9 @@ h6 {
 
 .today {
   position: fixed;
-  top: 20px;
+  top: 10px;
   left: 50%;
   transform: translateX(-50%);
-  /* bottom: 0px;
-  right: 20px; */
   text-align: center;
 }
 
@@ -38,7 +36,7 @@ h6 {
   width: 65vw;
   position: fixed;
   top: 50%;
-  left: 52%;
+  left: 50%;
   transform: translate(-50%, -50%);
   font-size: 18vw;
   font-weight: 700;
@@ -59,4 +57,11 @@ h6 {
 
 .developer:hover span {
   text-decoration: underline;
+}
+
+.world-clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }

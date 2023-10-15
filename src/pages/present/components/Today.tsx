@@ -14,7 +14,7 @@ const Today = () => {
     return `${date}.${month}.${year}`;
   };
 
-  return <h1 className="today">{getDate()}</h1>;
+  return <h3 className="today">{getDate()}</h3>;
 };
 
 export default Today;
