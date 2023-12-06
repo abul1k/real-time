@@ -1,7 +1,8 @@
 const Today = () => {
   const getDate = () => {
     let date = new Date().getDate().toString();
-    let month = new Date().getMonth().toString();
+    let month = (new Date().getMonth() + 1).toString(); // Add 1 to get the correct month
+    console.log(month)
     let year = new Date().getFullYear().toString();
 
     if (date.length < 2) {
